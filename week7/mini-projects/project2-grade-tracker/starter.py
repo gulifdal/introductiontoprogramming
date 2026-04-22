@@ -1,7 +1,7 @@
 # starter.py — Grade Tracker
 # Project 2 | Easy | 25–30 minutes
 #
-# Run from this folder: Gül İfdal Aldemir Sudenaz Soytürk
+# Run from this folder: Gül İfdal Aldemir - Sudenaz Soytürk
 #   python starter.py
 
 import csv
@@ -12,14 +12,16 @@ grade_counts = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
 
 # We track highest and lowest as dicts so we can store the name too
 highest = {"name": "", "score": -1}
-lowest = {"name": "", "score": 101}   # Why 101? Discuss with your pair.
+lowest = {"name": "", "score": 101}    # We started with 101 because the maximum grade is 100. 
+# This way, any grade from the list will be lower than 101, helping us find the minimum correctly.
 
 # — Step 2: Read the CSV _____________________________________
 with open("grades.csv", "r") as file:
     reader = csv.DictReader(file)
     for row in reader:
         name = row["name"]
-        score = int(row["score"])   # IMPORTANT: CSV values are strings — must convert
+        score = int(row["score"])   # Since CSV data is read as strings, we need to convert the score to an integer 
+# to perform mathematical comparisons and calculations.
 
         # TODO: Append score to the scores list
         scores.append(score)
