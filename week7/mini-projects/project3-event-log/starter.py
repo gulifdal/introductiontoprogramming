@@ -1,7 +1,7 @@
 # starter.py — Event Log Reporter
 # Project 3 | Intermediate | 35–45 minutes
 #
-# Run from this folder: Gül İfdal Aldemir - Sudenaz Soytürk - Yunus Enmre Ekici
+# Run from this folder: 
 #   python starter.py
 
 import csv
