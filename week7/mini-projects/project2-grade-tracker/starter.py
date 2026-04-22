@@ -1,7 +1,7 @@
 # starter.py — Grade Tracker
 # Project 2 | Easy | 25–30 minutes
 #
-# Run from this folder: Gül İfdal Aldemir - Sudenaz Soytürk
+# Run from this folder: 
 #   python starter.py
 
 import csv
