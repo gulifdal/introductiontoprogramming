@@ -4,10 +4,10 @@
 This folder contains the collaborative work for the Week 7 programming tasks. 
 
 ## Team Members
-* **Gül İfdal Aldemir** (Technical Lead & Project Architect)
-* **Sudenaz Soytürk** (Core Developer)
-* **Hevin Peri Evin** (Developer)
-* **İrem Pala** (Quality Assurance & Documentation)
+* **Gül İfdal Aldemir** 
+* **Sudenaz Soytürk** 
+* **Hevin Peri Evin** 
+* **İrem Pala** 
 
 ---
 *Detailed project descriptions and reflections will be added below.*
