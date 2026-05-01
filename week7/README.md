@@ -94,6 +94,11 @@ git checkout -b yourname/week1
 git add .
 git commit -m "feat(week1): add solution"
 git push origin yourname/week1
+team members (GitHub)
+@irempala52
+@hevinperi
+@gulifdal
+@sudesoyturk
 
 All work was submitted through Pull Requests for review.
 
